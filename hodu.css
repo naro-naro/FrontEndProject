@@ -232,7 +232,6 @@ br {
   line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 
@@ -242,7 +241,7 @@ br {
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-
+  color: #606367;
 }
 
 
@@ -252,6 +251,7 @@ br {
 
 .main-section4  {
   height: 160px;
+  position: static;
 }
 
 
@@ -265,11 +265,9 @@ br {
 
 .scroll-button {
   opacity: 50%;
-  z-index: 2;
   float: right;
   position: relative;
-  bottom: 70px;
-  right: 20px;
+  bottom: 100px;
 }
 
 
@@ -287,7 +285,10 @@ div {
 /* ------------------------------------------------------------ */
 
 .main-section5 {
-
+  z-index: 2;
+  border: 1px solid red;
+  background-color: #606367;
+  position: static;
 }
 
 /* ------------------------------------------------------------ */
